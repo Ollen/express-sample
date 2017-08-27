@@ -1,0 +1,12 @@
+{
+  "name": "express-sample",
+  "version": "1.0.0",
+  "description": "Sample Express web framework",
+  "main": "server.js",
+  "author": "Allendale S. Nato",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "hbs": "^4.0.1"
+  }
+}
