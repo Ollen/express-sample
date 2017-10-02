@@ -12,6 +12,7 @@ let server = express();
 
 server.set('view engine', 'hbs');
 hbs.registerPartials(__dirname + '/views/partials')
+
 server.use('/scripts', express.static(__dirname + '/bower_components'));
 server.use(uriLogger);
 server.use('/kapino', kapino);

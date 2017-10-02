@@ -1,3 +1,7 @@
+/**
+ * @module
+ * The Kapino Express Router.
+ */
 const express = require('express');
 const router = express.Router();
 
